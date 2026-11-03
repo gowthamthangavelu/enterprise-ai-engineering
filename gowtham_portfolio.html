@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Gowtham Thangavelu — PLM, Digital Engineering and Enterprise AI portfolio.">
+<title>Gowtham Thangavelu | PLM × Enterprise AI</title>
+<style>
+:root{--bg:#0b1020;--panel:#111a2e;--panel2:#17223a;--text:#edf3ff;--muted:#a8b6cf;--line:#2b3b59;--cyan:#61d9e8;--blue:#82aaff;--violet:#b69cff;--green:#8de0b0;--orange:#ffbd75}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#1b3150 0,transparent 38%),var(--bg);color:var(--text);font:16px/1.6 Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif}
+a{color:var(--cyan);text-decoration:none}a:hover{text-decoration:underline}.wrap{width:min(1120px,92%);margin:auto}
+nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;border-bottom:1px solid var(--line)}.brand{font-weight:750;letter-spacing:.03em}.navlinks{display:flex;gap:22px;font-size:.92rem;color:var(--muted)}
+.hero{padding:84px 0 58px;display:grid;grid-template-columns:1.4fr .8fr;gap:45px;align-items:center}.eyebrow{color:var(--cyan);text-transform:uppercase;letter-spacing:.16em;font-size:.76rem;font-weight:750}.hero h1{font-size:clamp(2.5rem,6vw,4.8rem);line-height:1.03;letter-spacing:-.055em;margin:15px 0}.hero h1 span{color:var(--cyan)}.lead{color:var(--muted);font-size:1.12rem;max-width:700px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{padding:11px 17px;border-radius:9px;border:1px solid var(--line);font-weight:650;display:inline-block}.primary{background:var(--cyan);color:#07131c;border-color:var(--cyan)}.hero-card,.card{background:linear-gradient(145deg,#17243b,#10192b);border:1px solid var(--line);border-radius:17px;padding:23px;box-shadow:0 16px 45px #0003}.hero-card h3{margin:0 0 12px}.statgrid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.stat{background:#0b1426;border:1px solid var(--line);border-radius:11px;padding:13px}.stat strong{display:block;font-size:1.35rem;color:var(--cyan)}.stat small{color:var(--muted)}
+section{padding:55px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:25px}.section-head h2{font-size:2rem;letter-spacing:-.035em;margin:0}.section-head p{color:var(--muted);max-width:570px;margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card h3{margin:0 0 8px}.card p{color:var(--muted);margin:0}.tagrow{display:flex;flex-wrap:wrap;gap:7px;margin-top:15px}.tag{font-size:.78rem;padding:5px 9px;border-radius:30px;background:#1d304a;color:#c9e7f3;border:1px solid #2b4965}
+.graph-shell{background:linear-gradient(145deg,#111d32,#0d1526);border:1px solid var(--line);border-radius:18px;padding:16px}.graph-top{display:flex;justify-content:space-between;gap:15px;align-items:center;flex-wrap:wrap}.legend{display:flex;gap:12px;flex-wrap:wrap;color:var(--muted);font-size:.8rem}.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}.graph-area{position:relative;min-height:510px;overflow:hidden}.graph-area svg{width:100%;height:510px;display:block}.edge{stroke:#405574;stroke-width:1.5;opacity:.7}.node{cursor:pointer}.node circle{stroke:#d8e8ff;stroke-width:1.2;filter:drop-shadow(0 4px 8px #0008)}.node text{fill:#f3f7ff;font-size:12px;text-anchor:middle;pointer-events:none;font-weight:650}.node.active circle{stroke:#fff;stroke-width:3}.detail{margin-top:12px;background:#0a1425;border:1px solid var(--line);padding:15px;border-radius:12px;color:var(--muted);min-height:75px}.detail strong{color:var(--text)}.graph-note{font-size:.8rem;color:var(--muted);margin:10px 3px 0}
+.project{display:flex;flex-direction:column;min-height:220px}.project .spacer{flex:1}.project a{font-weight:650}.roadmap{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.phase{border-top:2px solid var(--cyan);padding:15px;background:#111a2b;border-radius:0 0 12px 12px}.phase b{color:var(--cyan)}.phase p{color:var(--muted);font-size:.9rem;margin-bottom:0}
+footer{border-top:1px solid var(--line);padding:30px 0;color:var(--muted);font-size:.9rem}
+@media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:55px}.grid{grid-template-columns:1fr 1fr}.roadmap{grid-template-columns:1fr 1fr}.navlinks{gap:11px;font-size:.8rem}.graph-area,.graph-area svg{min-height:420px;height:420px}}
+@media(max-width:540px){.grid{grid-template-columns:1fr}.navlinks a:nth-child(2),.navlinks a:nth-child(3){display:none}.graph-area,.graph-area svg{height:360px;min-height:360px}.hero-card{max-width:100%}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><div class="brand">GOWTHAM<span style="color:var(--cyan)">.</span></div><div class="navlinks"><a href="#about">About</a><a href="#knowledge">Knowledge graph</a><a href="#projects">Projects</a><a href="#roadmap">Roadmap</a></div></nav>
+<header class="hero" id="about">
+<div><div class="eyebrow">PLM · Digital Engineering · Enterprise AI</div>
+<h1>Connecting product data<br>to <span>intelligent systems.</span></h1>
+<p class="lead">I'm Gowtham Thangavelu, a PLM and digital transformation professional building depth across data engineering, machine learning, generative AI and agentic systems—with a focus on practical enterprise applications.</p>
+<div class="actions"><a class="btn primary" href="#projects">Explore projects</a><a class="btn" href="https://github.com/" target="_blank" rel="noreferrer">GitHub profile ↗</a><a class="btn" href="mailto:YOUR_EMAIL">Contact</a></div>
+</div>
+<aside class="hero-card"><h3>Professional focus</h3><p style="color:var(--muted);margin-top:0">A connected engineering and AI capability stack.</p><div class="statgrid"><div class="stat"><strong>8+ yrs</strong><small>PLM & transformation experience</small></div><div class="stat"><strong>PLM</strong><small>Product lifecycle systems</small></div><div class="stat"><strong>AI</strong><small>Applied GenAI & agents</small></div><div class="stat"><strong>Data</strong><small>Python, SQL & pipelines</small></div></div></aside>
+</header>
+<section id="knowledge">
+<div class="section-head"><div><div class="eyebrow">Capability map</div><h2>My knowledge graph</h2></div><p>Explore how my core domain expertise connects with the data and AI capabilities I'm developing. Select a node to see its role in the wider architecture.</p></div>
+<div class="graph-shell"><div class="graph-top"><strong>PLM × Data × Enterprise AI</strong><div class="legend"><span><i class="dot" style="background:#61d9e8"></i>Core domain</span><span><i class="dot" style="background:#82aaff"></i>Data & engineering</span><span><i class="dot" style="background:#b69cff"></i>AI capabilities</span><span><i class="dot" style="background:#8de0b0"></i>Use cases</span></div></div>
+<div class="graph-area"><svg id="kg" viewBox="0 0 900 510" role="img" aria-label="Interactive knowledge graph linking PLM, data engineering, AI and enterprise use cases"></svg></div>
+<div class="detail" id="detail"><strong>Select a knowledge node.</strong> Its description and connections will appear here.</div><p class="graph-note">Conceptual capability map, not a claim of equal proficiency across all technologies. Nodes can be repositioned only by editing this page's data.</p></div>
+</section>
+<section>
+<div class="section-head"><div><div class="eyebrow">Professional foundation</div><h2>What I bring</h2></div><p>Combining product lifecycle knowledge, enterprise integration experience and a growing AI engineering toolkit.</p></div>
+<div class="grid">
+<div class="card"><h3>PLM & product data</h3><p>Product structures, EBOM/MBOM, change management, configuration, product data governance and lifecycle processes.</p><div class="tagrow"><span class="tag">Teamcenter</span><span class="tag">Windchill</span><span class="tag">Centric PLM</span><span class="tag">SAP PLM</span></div></div>
+<div class="card"><h3>Enterprise integration</h3><p>Connecting PLM with ERP, data platforms and downstream enterprise applications through APIs and integration patterns.</p><div class="tagrow"><span class="tag">REST APIs</span><span class="tag">JSON</span><span class="tag">MuleSoft</span><span class="tag">SAP BTP</span></div></div>
+<div class="card"><h3>AI engineering journey</h3><p>Building practical capability in Python, SQL, data pipelines, LLM applications, retrieval systems and tool-using agents.</p><div class="tagrow"><span class="tag">Python</span><span class="tag">SQL</span><span class="tag">RAG</span><span class="tag">MCP</span></div></div>
+</div>
+</section>
+<section id="projects">
+<div class="section-head"><div><div class="eyebrow">Applied learning</div><h2>Project portfolio</h2></div><p>Planned project themes that translate learning into demonstrable engineering outcomes. Replace these cards with repository links as projects are completed.</p></div>
+<div class="grid">
+<div class="card project"><h3>Engineering Knowledge Assistant</h3><p>RAG application over engineering documents, with metadata filtering, citations, access-aware retrieval and evaluation.</p><div class="tagrow"><span class="tag">Python</span><span class="tag">RAG</span><span class="tag">Vector search</span></div><div class="spacer"></div><a href="https://github.com/YOUR-USERNAME/enterprise-ai-engineering">Add project link ↗</a></div>
+<div class="card project"><h3>BOM Intelligence</h3><p>Analyze multi-level BOMs to identify component reuse, lifecycle risk, part similarity and change impact.</p><div class="tagrow"><span class="tag">SQL</span><span class="tag">Python</span><span class="tag">Knowledge graph</span></div><div class="spacer"></div><a href="https://github.com/YOUR-USERNAME/enterprise-ai-engineering">Add project link ↗</a></div>
+<div class="card project"><h3>PLM Agent Assistant</h3><p>Prototype an agent that explains product data and orchestrates approved read-only PLM actions through governed tools.</p><div class="tagrow"><span class="tag">LLMs</span><span class="tag">Agents</span><span class="tag">MCP</span></div><div class="spacer"></div><a href="https://github.com/YOUR-USERNAME/enterprise-ai-engineering">Add project link ↗</a></div>
+</div>
+</section>
+<section id="roadmap">
+<div class="section-head"><div><div class="eyebrow">Continuous development</div><h2>Learning roadmap</h2></div><p>A staged progression from engineering fundamentals to production-grade enterprise AI systems.</p></div>
+<div class="roadmap">
+<div class="phase"><b>01 · Foundations</b><p>Python, SQL, Git, data structures, testing and software engineering practices.</p></div>
+<div class="phase"><b>02 · Data systems</b><p>Data modeling, ETL/ELT, orchestration, warehouses and cloud fundamentals.</p></div>
+<div class="phase"><b>03 · AI applications</b><p>ML fundamentals, LLMs, embeddings, RAG, evaluation and observability.</p></div>
+<div class="phase"><b>04 · Agentic systems</b><p>Tool calling, MCP, multi-agent patterns, security and enterprise architecture.</p></div>
+</div>
+</section>
+<footer><div style="display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap"><span>© <span id="year"></span> Gowtham Thangavelu</span><span>Built around PLM, digital engineering and enterprise AI.</span></div></footer>
+</div>
+<script>
+const nodes=[
+{id:"plm",label:"PLM",x:155,y:250,r:35,c:"#61d9e8",d:"Core domain: product lifecycle processes, product structures, configuration, engineering change and product data governance."},
+{id:"bom",label:"BOM & Change",x:330,y:120,r:27,c:"#61d9e8",d:"Product structures and change processes connect engineering intent to manufacturing, sourcing and downstream execution."},
+{id:"systems",label:"Enterprise Systems",x:330,y:380,r:29,c:"#61d9e8",d:"PLM, ERP, MES and quality systems form the operational backbone of the digital thread."},
+{id:"python",label:"Python",x:500,y:70,r:25,c:"#82aaff",d:"Programming foundation for automation, data processing, APIs, analytics and AI application development."},
+{id:"sql",label:"SQL & Data",x:500,y:190,r:27,c:"#82aaff",d:"Querying, modeling and transforming structured product and operational data for reliable analytics."},
+{id:"integration",label:"Integration",x:500,y:350,r:27,c:"#82aaff",d:"APIs, JSON, middleware and event-driven patterns connect systems and move governed data across the enterprise."},
+{id:"ml",label:"ML",x:690,y:65,r:24,c:"#b69cff",d:"Machine learning provides classification, prediction, anomaly detection and similarity capabilities."},
+{id:"llm",label:"LLMs",x:690,y:190,r:27,c:"#b69cff",d:"Large language models enable natural-language interfaces, reasoning over context and structured tool use."},
+{id:"rag",label:"RAG",x:690,y:315,r:27,c:"#b69cff",d:"Retrieval-augmented generation grounds model responses in enterprise knowledge with retrieval, citations and evaluation."},
+{id:"agents",label:"AI Agents / MCP",x:690,y:440,r:29,c:"#b69cff",d:"Agents use tools and protocols to execute bounded workflows with permissions, human approval and auditability."},
+{id:"twin",label:"Digital Thread",x:855,y:150,r:24,c:"#8de0b0",d:"A connected flow of product information across lifecycle stages, enabling traceability and impact analysis."},
+{id:"assistant",label:"Engineering Assistant",x:855,y:300,r:29,c:"#8de0b0",d:"A potential application combining PLM context, RAG and governed tools to help engineers find information and complete tasks."}
+];
+const edges=[["plm","bom"],["plm","systems"],["bom","sql"],["systems","integration"],["python","sql"],["python","ml"],["python","llm"],["sql","rag"],["integration","llm"],["integration","twin"],["ml","assistant"],["llm","rag"],["rag","assistant"],["agents","assistant"],["agents","integration"],["plm","twin"],["twin","assistant"]];
+const svg=document.getElementById("kg"),ns="http://www.w3.org/2000/svg";
+function el(tag,attrs,parent){const e=document.createElementNS(ns,tag);Object.entries(attrs||{}).forEach(([k,v])=>e.setAttribute(k,v));parent.appendChild(e);return e}
+edges.forEach(([a,b])=>{let A=nodes.find(n=>n.id===a),B=nodes.find(n=>n.id===b);el("line",{x1:A.x,y1:A.y,x2:B.x,y2:B.y,class:"edge"},svg)});
+nodes.forEach(n=>{let g=el("g",{class:"node",tabindex:"0",role:"button","aria-label":n.label},svg);el("circle",{cx:n.x,cy:n.y,r:n.r,fill:n.c},g);let t=el("text",{x:n.x,y:n.y+4},g);t.textContent=n.label;function choose(){document.querySelectorAll(".node").forEach(x=>x.classList.remove("active"));g.classList.add("active");let links=edges.filter(e=>e.includes(n.id)).map(e=>nodes.find(x=>x.id===e.find(v=>v!==n.id)).label);document.getElementById("detail").innerHTML="<strong>"+n.label+"</strong><br>"+n.d+"<br><span style='color:#61d9e8'>Connected to: "+links.join(" · ")+"</span>"}g.addEventListener("click",choose);g.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();choose()}})});
+document.getElementById("year").textContent=new Date().getFullYear();
+</script>
+</body></html>
